@@ -1,0 +1,217 @@
+
+
+.top-container{
+    position: relative;
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.img-1 {
+    height: 250px;
+    width: 100%;
+}
+
+.img-2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+.title-text {
+    padding-top: 80px;  
+    margin: 0 auto 0 auto;
+}
+
+h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 900;
+    font-size: larger;
+}
+
+.container-1{
+    text-align: center;
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.education{
+    margin-left: 0;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.heading-1 {
+    background-color: black;
+    color: #EEEEEE;
+    height: 50px;
+    font-size: 30px;
+}
+
+.heading-work{
+    background-color: black;
+    color: #EEEEEE;
+    height: 50px;
+    font-size: 30px;
+}
+
+.p-education{
+    display: block;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.img-education{
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
+
+.img-3{
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+}
+
+.work{
+    margin-left: 0;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding-bottom: 20px;
+}
+
+.p-work{
+    display: block;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.container-2{
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 100vh;
+    position: relative;
+}
+
+.heading-skills{
+    background-color: black;
+    color: #EEEEEE;
+    height: 50px;
+    font-size: 30px;
+}
+
+.p-skills{
+    font-size: 20px;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 20px;
+    color: white;
+}
+
+
+@media (max-width:480px){
+
+    .top-container{
+        position: relative;
+    }
+
+    .img-2{
+        position: absolute;
+        top: 150px;
+        right: 15px;
+        margin: 0 auto 0 auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+
+    h1{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    h4{
+        font-size: 20px;
+        margin: 10px 0 0 0;
+    }
+    
+    p{
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+    .heading-1{
+        height: 30px;
+    }
+
+    .heading-work{
+        height: 30px;
+    }
+
+    .heading-skills{
+        height: 30px;
+    }
+    
+    
+    
+    .education{
+        display: block;
+        width: 100%;
+        height: 40%;
+        margin: 0;
+    }
+
+    .img-education{
+        display: none;
+    }
+
+    .work{
+        display: block;
+        width: 100%;
+        height: 60%;
+        margin: 0;
+        
+    }
+
+    .container-1{
+        display: block;
+    }
+
+
+}
